@@ -1,10 +1,10 @@
 body {
-    background-color: black;
+    background-color: rgba(26, 26, 26, 0.91);
 }
 
 .container {
     max-width: 680px;
-    margin: auto;
+    margin: 40px auto auto;
     display: grid;
     align-items: center;
     align-content: center;
@@ -12,7 +12,7 @@ body {
     justify-items: center;
     background-color: #FFFFFF;
     padding: 40px;
-    border-radius: 2%;
+    border-radius: 15px;
 }
 
 .minha-foto {
@@ -20,8 +20,17 @@ body {
     border-radius: 100%;
 }
 
+.nome {
+    margin-bottom: 0;
+}
+
+.rotulos {
+    margin-bottom: 0    ;
+}
+
 .sobre-mim {
     max-width: 480px;
+    text-align: justify;
 }
 
 .links {
