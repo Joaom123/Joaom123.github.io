@@ -29,6 +29,7 @@ body {
 }
 
 .sobre-mim {
+    width: 90%;
     max-width: 480px;
     text-align: justify;
 }
@@ -36,11 +37,13 @@ body {
 .links {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     max-width: 480px;
 }
 
-.links > a {
+.link {
     font-size: 1.5em;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
